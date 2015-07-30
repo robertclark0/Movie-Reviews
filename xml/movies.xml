@@ -1,15 +1,52 @@
 <?xml version="1.0"?>
 <Movies>
-    <movie name="Toy-Story-2">
-        <title>Toy Story 2</title>
-        <description>Toys come to life again</description>
-        <img_url>https://upload.wikimedia.org/wikipedia/en/c/c0/Toy_Story_2.jpg</img_url>
-        <trailer_url>https://www.youtube.com/watch?v=Lu0sotERXhI</trailer_url>
+    <movie name="Inside-Out">
+        <title>Inside Out</title>
+        <description>The emotions in your head are real</description>
+        <img_url>https://upload.wikimedia.org/wikipedia/en/0/0a/Inside_Out_%282015_film%29_poster.jpg</img_url>
+        <trailer_url>https://www.youtube.com/watch?v=yRUAzGQ3nSY</trailer_url>
+        <rating>4</rating>
     </movie>
-    <movie name="Toy-Story-3">
-        <title>Toy Story 3</title>
-        <description>Toys come to life again, again</description>
-        <img_url>https://upload.wikimedia.org/wikipedia/en/6/69/Toy_Story_3_poster.jpg</img_url>
-        <trailer_url>https://www.youtube.com/watch?v=JcpWXaA2qeg</trailer_url>
+    <movie name="Jurassic-World">
+        <title>Jurassic World</title>
+        <description>Dinosaurs escape, again</description>
+        <img_url>https://upload.wikimedia.org/wikipedia/en/6/6e/Jurassic_World_poster.jpg</img_url>
+        <trailer_url>https://www.youtube.com/watch?v=RFinNxS5KN4</trailer_url>
+    </movie>
+    <movie name="Max">
+        <title>Max</title>
+        <description>War dog come home</description>
+        <img_url>https://upload.wikimedia.org/wikipedia/en/d/d9/Max_poster.jpg</img_url>
+        <trailer_url>https://www.youtube.com/watch?v=6EPPMCwD5bw</trailer_url>
+    </movie>
+    <movie name="Pitch-Perfect-2">
+        <title>Pitch Perfect 2</title>
+        <description>Singing once more</description>
+        <img_url>https://upload.wikimedia.org/wikipedia/en/3/3f/Pitch_Perfect_2_poster.jpg</img_url>
+        <trailer_url>https://www.youtube.com/watch?v=KBwOYQd21TY</trailer_url>
+    </movie>
+    <movie name="Furious-7">
+        <title>Furious 7</title>
+        <description>We can drive our car, seven times..</description>
+        <img_url>https://upload.wikimedia.org/wikipedia/en/b/b8/Furious_7_poster.jpg</img_url>
+        <trailer_url>https://www.youtube.com/watch?v=Skpu5HaVkOc</trailer_url>
+    </movie>
+    <movie name="Insurgent">
+        <title>Insurgent</title>
+        <description>We are different, and we are back</description>
+        <img_url>https://upload.wikimedia.org/wikipedia/en/a/af/Insurgent_poster.jpg</img_url>
+        <trailer_url>https://www.youtube.com/watch?v=suZcGoRLXkU</trailer_url>
+    </movie>
+    <movie name="Far-from-the-Madding-Crowd">
+        <title>Far from the Madding Crowd</title>
+        <description>A love square</description>
+        <img_url>http://t2.gstatic.com/images?q=tbn:ANd9GcSw0jAVU-AMygamdngTs5D3D88ELjTVXQ77per-DBumqLcijsh7</img_url>
+        <trailer_url>https://www.youtube.com/watch?v=WCm1XNVD_0c</trailer_url>
+    </movie>
+    <movie name="Project-Almanac">
+        <title>Project Almanac</title>
+        <description>A love square</description>
+        <img_url>https://upload.wikimedia.org/wikipedia/en/3/36/Project_Almanac_poster.jpg</img_url>
+        <trailer_url>https://www.youtube.com/watch?v=8Yih-CxTWsw</trailer_url>
     </movie>
 </Movies>
