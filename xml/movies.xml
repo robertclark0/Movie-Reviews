@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Movies>
+    <movie name="Toy-Story-2">
+        <title>Toy Story 2</title>
+        <description>Toys come to life again</description>
+        <img_url>https://upload.wikimedia.org/wikipedia/en/c/c0/Toy_Story_2.jpg</img_url>
+        <trailer_url>https://www.youtube.com/watch?v=Lu0sotERXhI</trailer_url>
+    </movie>
+    <movie name="Toy-Story-3">
+        <title>Toy Story 3</title>
+        <description>Toys come to life again, again</description>
+        <img_url>https://upload.wikimedia.org/wikipedia/en/6/69/Toy_Story_3_poster.jpg</img_url>
+        <trailer_url>https://www.youtube.com/watch?v=JcpWXaA2qeg</trailer_url>
+    </movie>
+</Movies>
