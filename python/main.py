@@ -1,13 +1,12 @@
 #!/usr/bin/python
 #print "Content-type: text/html\n\n";
 
-import os #FOR LOCAL USE
+import os
 os.chdir(os.path.dirname(__file__) + '/..') #FOR LOCAL USE
-
 import media
 import content
 import xml.etree.ElementTree as ET
-import os
+
 
 # create movies list
 movies = []
