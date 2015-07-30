@@ -3,17 +3,17 @@ import os
 import re
 
 # Styles and scripting for the page
-with open("head.html", "r") as myFile:
+with open("html/head.html", "r") as myFile:
     main_page_head = myFile.read()
 
 
 # The main page layout and title bar
-with open("doc.html", "r") as myFile:
+with open("html/doc.html", "r") as myFile:
     main_page_content = myFile.read()
 
 
 # A single movie entry html template
-with open("movie-content.html", "r") as myFile:
+with open("html/movie-content.html", "r") as myFile:
     movie_tile_content = myFile.read()
 
 

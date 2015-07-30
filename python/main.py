@@ -2,6 +2,7 @@ import python.media as media
 import python.content as content
 import xml.etree.ElementTree as ET
 
+print('hello world')
 # create movies list
 movies = []
 
