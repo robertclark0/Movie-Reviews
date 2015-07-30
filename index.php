@@ -1,3 +1,3 @@
 <?
-system( 'python main.py', $return)
+system( 'python python/main.py', $return)
 ?>
