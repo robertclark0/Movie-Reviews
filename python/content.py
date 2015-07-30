@@ -1,19 +1,21 @@
 import webbrowser
 import os
 import re
+import os.path
+
 
 # Styles and scripting for the page
-with open("html/head.html", "r") as myFile:
+with open(os.path.dirname(__file__) + "/../html/head.html", "r") as myFile:
     main_page_head = myFile.read()
 
 
 # The main page layout and title bar
-with open("html/doc.html", "r") as myFile:
+with open(os.path.dirname(__file__) + "/../html/doc.html", "r") as myFile:
     main_page_content = myFile.read()
 
 
 # A single movie entry html template
-with open("html/movie-content.html", "r") as myFile:
+with open(os.path.dirname(__file__) + "/../html/movie-content.html", "r") as myFile:
     movie_tile_content = myFile.read()
 
 

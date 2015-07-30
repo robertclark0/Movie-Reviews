@@ -1,13 +1,13 @@
 import python.media as media
 import python.content as content
 import xml.etree.ElementTree as ET
+import os
 
-print('hello world')
 # create movies list
 movies = []
 
 # parse movies.xml and find root element
-tree = ET.parse('movies.xml')
+tree = ET.parse(os.path.dirname(__file__) + '/../xml/movies.xml')
 root = tree.getroot()
 
 # iterate through each child element, create instance of Movie object with parsed data
