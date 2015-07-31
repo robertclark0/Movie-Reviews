@@ -22,6 +22,7 @@ Successfully running this program is dependent upon your local and web server se
 It is also hosted on a web server running Apache. The two issues to look out for when implementing are correct file paths based on your system, and importing modules.
 Included in the code are comments indicating which lines of code are relevant to local use, and which are relevant to web user.
 These are denoted by: #FOR LOCAL USE, and #FOR WEB. These lines of code are found at the import level in main.py, and at the output function of content.py
+For practical use on the server, an index.php file was create in which the python script files are called. This allows the program to run automatically at the url request.
 
 Additional:
 Also included is the .htaccess file. While this may also very by server configuration, this file and settings are required for the current Apache web server configuration.
