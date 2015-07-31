@@ -111,7 +111,8 @@
         $(document).on('click', '.review-button', function (event) {
             var text = $(this).siblings(".review-text").text();
             var title = $(this).siblings(".movie-title").children("h2").text();
-            $("#review-container").empty().append($("<div class='review-modal'><h1 class='review-title'>" + title + "</h1><p>" +  text + "</p></div>"));
+            var rating = $(this).attr('rating')
+            $("#review-container").empty().append($("<div class='review-modal'><h1 class='review-title'>" + title + " " + rating + "</h1><p>" +  text + "</p></div>"));
         });
 
         // Animate in the movies when the page loads
