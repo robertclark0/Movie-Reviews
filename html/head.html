@@ -10,12 +10,12 @@
     <style type="text/css" media="screen">
         body {
             padding-top: 80px;
-            background-color:rgb(255,255,255);
+            background-color:rgb(245,250,240);
         }
-        #trailer .modal-dialog {
+        #trailer .modal-dialog, #review .modal-dialog {
             margin-top: 200px;
             width: 640px;
-            height: 480px;
+            height: auto;
         }
         .hanging-close {
             position: absolute;
@@ -30,6 +30,9 @@
         .movie-tile {
             margin-bottom: 20px;
             padding-top: 20px;
+        }
+        .movie-title h2{
+            font-size:1.5em;
         }
         .overlay {
             background-color: black;
@@ -72,6 +75,18 @@
             top: 0;
             background-color: white;
         }
+        .movie-img{
+            box-shadow: 3px 3px 5px #C7C7C7;
+        }
+        .review-modal{
+            padding:25px;
+        }
+        .review-title{
+            font-size:1.75em;
+        }
+        .review-modal p {
+            font-size:1.25em;
+        }
     </style>
     <script type="text/javascript" charset="utf-8">
         // Pause the video when the modal is closed
@@ -91,6 +106,14 @@
               'frameborder': 0
             }));
         });
+
+        // display review when modal is opened
+        $(document).on('click', '.review-button', function (event) {
+            var text = $(this).siblings(".review-text").text();
+            var title = $(this).siblings(".movie-title").children("h2").text();
+            $("#review-container").empty().append($("<div class='review-modal'><h1 class='review-title'>" + title + "</h1><p>" +  text + "</p></div>"));
+        });
+
         // Animate in the movies when the page loads
         $(document).ready(function () {
           $('.movie-tile').hide().first().show("fast", function showNext() {
