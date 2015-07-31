@@ -43,18 +43,18 @@ def open_movies_page(movies):
     # Be sure to comment out the appropriate lines of code for each environment
 
     # Create or overwrite the output file
-    output_file = open('local.html', 'w') # FOR LOCAL
+    output_file = open('local.html', 'w') # FOR LOCAL USE
 
     # Replace the placeholder for the movie tiles with the actual dynamically generated content
-    rendered_content = main_page_content.format(movie_tiles=create_movie_tiles_content(movies)) #FOR LOCAL & WEB
+    rendered_content = main_page_content.format(movie_tiles=create_movie_tiles_content(movies)) #FOR LOCAL USE & WEB USE
 
     # Output the file
-    output_file.write(main_page_head + rendered_content) # FOR LOCAL
+    output_file.write(main_page_head + rendered_content) # FOR LOCAL USE
     output_file.close() # FOR LOCAL
 
     # open the output file in the browser
-    url = os.path.abspath(output_file.name) # FOR LOCAL
-    webbrowser.open('file://' + url, new=2) # FOR LOCAL
+    url = os.path.abspath(output_file.name) # FOR LOCAL USE
+    webbrowser.open('file://' + url, new=2) # FOR LOCAL USE
 
     # For use on web server, will return html content instead of opening a local file
-    # print(main_page_head + rendered_content) #FOR WEB
+    # print(main_page_head + rendered_content) #FOR WEB USE
