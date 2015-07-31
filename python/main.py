@@ -21,6 +21,7 @@ for child in root:
     description = child.find('description').text
     img_url = child.find('img_url').text
     trailer_url = child.find('trailer_url').text
-    movies.append(media.Movie(title, description, img_url, trailer_url))
+    rating = child.find('rating').text
+    movies.append(media.Movie(title, description, img_url, trailer_url,rating))
 
 content.open_movies_page(movies)

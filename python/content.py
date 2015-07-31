@@ -32,7 +32,8 @@ def create_movie_tiles_content(movies):
             movie_title=movie.title,
             poster_image_url=movie.poster_image_url,
             trailer_youtube_id=trailer_youtube_id,
-            movie_review=movie.storyline
+            movie_review=movie.storyline,
+            movie_rating=movie.rating
         )
     return content
 
