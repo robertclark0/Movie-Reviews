@@ -28,6 +28,6 @@ Also included is the .htaccess file. While this may also very by server configur
 Also note that depending on your configuration, the python files will likely need executable permissions.
 
 References:
-The origin of this code comes from the Udacity Full-Stack Nanodegree program, however it has been extensively customizes and changed.
+The origin of this code comes from the Udacity Full-Stack Nanodegree program, however it has been extensively customized and changed.
 
-For more information visi robertclark.io
+For more information visit robertclark.io
