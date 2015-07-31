@@ -27,4 +27,7 @@ Additional:
 Also included is the .htaccess file. While this may also very by server configuration, this file and settings are required for the current Apache web server configuration.
 Also note that depending on your configuration, the python files will likely need executable permissions.
 
+References:
+The origin of this code comes from the Udacity Full-Stack Nanodegree program, however it has been extensively customizes and changed.
+
 For more information visi robertclark.io
