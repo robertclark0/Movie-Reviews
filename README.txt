@@ -1,4 +1,6 @@
 Movie-Reviews
+Demo:
+http://robertclark.io/udacity/movie-reviews/
 
 Quick:
 Movies-Reviews is a simple, dynamically generated web site to list and preview movie reviews created by Robert Clark.
