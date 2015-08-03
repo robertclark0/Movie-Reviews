@@ -44,4 +44,4 @@ The origin of this code comes from the Udacity Full-Stack Nanodegree program, ho
 
 Contact
 -------
-For more information visit robertclark.io
+For more information visit [robertclark.io](http://robertclark.io)
