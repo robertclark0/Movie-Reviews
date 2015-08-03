@@ -20,7 +20,7 @@ Within the XML division is the movies data. The xml structure is simple, but eac
 
 Running the Program
 -------------------
-Successfully running this program is dependent upon your local and web server settings. This project was build locally on a WAMP setup. It is also hosted on a web server running Apache. The two issues to look out for when implementing are correct file paths based on your system, and importing modules. Included in the code are comments indicating which lines of code are relevant to local use, and which are relevant to web user. These are denoted by: #FOR LOCAL USE, and #FOR WEB. These lines of code are found at the import level in main.py, and at the output function of content.py For practical use on the server, an index.php file was create in which the python script files are called. This allows the program to run automatically at the url request.
+Successfully running this program is dependent upon your local and web server settings. This project was build locally on a WAMP setup. It is also hosted on a web server running Apache. The two issues to look out for when implementing are correct file paths based on your system, and importing modules. Included in the code are comments indicating which lines of code are relevant to local use, and which are relevant to web user. These are denoted by: `#FOR LOCAL USE`, and `#FOR WEB`. These lines of code are found at the import level in main.py, and at the output function of content.py For practical use on the server, an index.php file was create in which the python script files are called. This allows the program to run automatically at the url request.
 ####For Local
 * Maintain current folder structure
 * In main.py and content.py, comment out lines of code denoted with `#FOR WEB`
