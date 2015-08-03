@@ -25,14 +25,17 @@ It is also hosted on a web server running Apache. The two issues to look out for
 Included in the code are comments indicating which lines of code are relevant to local use, and which are relevant to web user.
 These are denoted by: #FOR LOCAL USE, and #FOR WEB. These lines of code are found at the import level in main.py, and at the output function of content.py
 For practical use on the server, an index.php file was create in which the python script files are called. This allows the program to run automatically at the url request.
-    ####For Local
-    *One
-    *Two
-    *Three
+####For Local
+* Maintain current folder structure
+* In main.py and content.py, comment out lines of code denoted with #FOR WEB
+* From command line, navigate to Movie-Reviews/Python and run main.py file by typing "python main.py"
 
-    ####For Web
-    *One
-    *Two
+####For Web
+* Maintain current folder structure on a server with python installed and CGI  and PHP enabled
+* In main.py and content.py, comment out lines of code denoted with #FOR LOCAL USE
+* In main.py modified the first line "#!/usr/bin/python" as required to point to python install
+* Make sure to includ index.php in root folder Movie-Reviews
+* Call URL for Movie-Reviews folder, index.php will kick off runnign python application.
 
 Additional
 ----------
